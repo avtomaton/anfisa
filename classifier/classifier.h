@@ -3,7 +3,7 @@
 
 #include <core/raw-structures.h>
 
-namespace ground_truth {
+namespace anfisa {
 
 struct ClassifyWindow
 {
@@ -43,6 +43,6 @@ struct ClassifierCompiled : Classifier
 	classifier_cb_t run;
 };
 
-}  // namespace ground_truth
+}  // namespace anfisa
 
 #endif  // AIFIL_CLASSIFIER_H
