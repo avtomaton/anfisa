@@ -7,7 +7,7 @@ include(ExternalProject)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-if (NOT TARGET aifil-utils-common)
+if (NOT TARGET aifil-utils-common AND NOT NO_UTILS)
 	ExternalProject_Add(
 		aifil-utils
 		PREFIX aifil-utils
