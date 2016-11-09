@@ -29,3 +29,7 @@ set(OBJ_UTILS
 )
 
 add_library(anfisa-minimal ${OBJ_UTILS})
+if (NOT TARGET aifil-utils-common AND NOT NO_UTILS)
+	add_dependencies(anfisa-minimal aifil-utils)
+endif()
+
