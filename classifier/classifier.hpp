@@ -1,7 +1,7 @@
 #ifndef AIFIL_CLASSIFIER_H
 #define AIFIL_CLASSIFIER_H
 
-#include <core/raw-structures.h>
+#include <core/raw-structures.hpp>
 
 namespace anfisa {
 
