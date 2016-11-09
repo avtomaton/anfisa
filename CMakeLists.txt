@@ -23,9 +23,9 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(OBJ_UTILS
 	core/io-structures.cpp
-	core/io-structures.h
-	core/raw-structures.h
-	classifier/classifier.h
+	core/io-structures.hpp
+	core/raw-structures.hpp
+	classifier/classifier.hpp
 )
 
 add_library(anfisa-minimal ${OBJ_UTILS})

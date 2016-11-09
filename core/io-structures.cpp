@@ -1,7 +1,7 @@
-#include "io-structures.h"
+#include "io-structures.hpp"
 
-#include <common/errutils.h>
-#include <common/stringutils.h>
+#include <common/errutils.hpp>
+#include <common/stringutils.hpp>
 
 #include <opencv2/imgproc/imgproc.hpp>
 
